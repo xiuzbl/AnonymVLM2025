@@ -1,0 +1,9 @@
+train:
+  grounded_sft_data:
+    target: locals.datasets.json_dataset.JsonDataset
+    params:
+      path: /PATH/TO/Mixture-of-Visual-Thoughts/SFT/grounded_sft_meta.json
+  text-sft-data-orsta32b-distilled:
+    target: locals.datasets.json_dataset.JsonDataset
+    params:
+      path: /PATH/TO/Mixture-of-Visual-Thoughts/SFT/text_sft_data_orsta-32b.json

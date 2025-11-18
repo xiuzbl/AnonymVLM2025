@@ -1,0 +1,4 @@
+- mmstar:
+  target: locals.datasets.eval.conv_format.MMStarDataset
+  params:
+    path: /PATH/TO/MMStar/

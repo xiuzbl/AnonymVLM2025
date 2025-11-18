@@ -1,0 +1,5 @@
+- vsr:
+  target: locals.datasets.eval.conv_format.SpatialScoreDataset
+  params:
+    meta_path: /data/MoVT-Eval/SpatialScore/SpatialScore-Hard.json
+    base_dir: /data/MoVT-Eval/SpatialScore/base/

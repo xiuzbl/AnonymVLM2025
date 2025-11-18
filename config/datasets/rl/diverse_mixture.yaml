@@ -1,0 +1,5 @@
+train:
+  diverse_mixture:
+    target: locals.dataset.json_dataset.JsonBaseDataset
+    params:
+      path: /data/Mixture-of-Visual-Thoughts/RL/rl_meta_diverse_mix.json

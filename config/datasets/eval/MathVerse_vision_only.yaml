@@ -1,0 +1,6 @@
+- mmstar:
+  target: locals.datasets.eval.conv_format.MathVerseDataset
+  params:
+    meta_path: /data/MathVerse/
+    split: testmini
+    categories: "Vision Only"

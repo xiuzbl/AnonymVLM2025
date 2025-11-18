@@ -1,0 +1,5 @@
+- mmstar:
+  target: locals.datasets.eval.conv_format.WeMathDataset
+  params:
+    meta_path: /PATH/TO/We-Math/
+    split: testmini

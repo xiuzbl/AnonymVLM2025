@@ -1,0 +1,5 @@
+- mmstar:
+  target: locals.datasets.eval.conv_format.MathVistaDataset
+  params:
+    meta_path: /PATH/TO/MathVista/
+    split: testmini

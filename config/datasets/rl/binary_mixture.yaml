@@ -1,0 +1,5 @@
+train:
+  binary_mix:
+    target: locals.dataset.json_dataset.JsonBaseDataset
+    params:
+      path: /data/Mixture-of-Visual-Thoughts/RL/rl_meta_binary_mix.json

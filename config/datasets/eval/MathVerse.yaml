@@ -1,0 +1,5 @@
+- mmstar:
+  target: locals.datasets.eval.conv_format.MathVerseDataset
+  params:
+    meta_path: /PATH/TO/MathVerse/
+    split: testmini

@@ -1,0 +1,4 @@
+- pope:
+  target: locals.datasets.eval.conv_format.POPEHFDataset
+  params:
+    meta_path: /PATH/TO/POPE/

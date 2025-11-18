@@ -1,0 +1,5 @@
+- vstar:
+  target: locals.datasets.eval.conv_format.VStarDataset
+  params:
+    path: /data/vstar_bench/test_questions.jsonl
+    image_dir: /data/vstar_bench/
